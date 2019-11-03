@@ -1,0 +1,43 @@
+
+        <article class="post tag-angular-core" >
+            <div class="post-header-academy" >
+                <a href="https://angular-university.io">
+                  <img src="assets/img/angular.png" style="height:100px;width:100px">
+                  
+                </a>
+            </div>
+            <header class="post-header" style="padding:2rem">
+                <h1 class="post-title" style="text-align: center;">
+                        Common words
+                </h1>
+                <h2 class="post-title" style="text-align: center;">    
+                ਆਮ ਸ਼ਬਦ              
+                </h2>
+    
+              </header>  
+              <section class="post-content" style="padding:2rem">
+                    <table class="table table-striped" style="border:1px solid black">
+                            <thead>
+                                <tr>
+                                    <th>Words/ਸ਼ਬਦ</th>
+                                    <th>Pronunciation/ਉਚਾਰਨ</th>
+                                    <th>Meaning/ਭਾਵ</th>
+                                  </tr>
+                               
+                                    
+                              
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let word of words | async">
+                                    
+                                                                        <td>{{word.content.English}}</td>
+                                                                        <td>{{word.content.Punjabi}}</td>
+                                                                        <td>{{word.content.Meaning}}</td>
+                                </tr>
+                            </tbody>
+                          </table>
+              </section>
+                </article> 
+    
+   
+    

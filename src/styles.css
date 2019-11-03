@@ -1,0 +1,99 @@
+/* You can add global styles to this file, and also import other style files */
+.fixed-top {
+    position: fixed;
+    z-index: 1030;
+}
+.post-template .content {
+    overflow: hidden;
+}
+
+main, menu, nav, section, summary {
+    margin-top: 0px;
+    display: block;
+}
+#container {
+    width: 980px;
+    width: 80%;
+    max-width: 980px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 5px 5px 25px grey;
+}
+
+.main{
+    padding: 0px;
+    margin: 0px;
+}
+
+.post {
+    position: relative;
+    width: 90%;
+    max-width: 850px;
+    margin: 4rem auto;
+    padding-bottom: 4rem;
+    border-bottom: #EBF2F6 1px solid;
+    word-wrap: break-word;
+}
+
+.post-header-academy {
+    text-align: center;
+    margin: 0px;
+}
+.post-blog-logo {
+    height: 250px;
+    margin: 0 auto -10px 0;
+}
+.post-template .post-header {
+    margin-bottom: 3.4rem;
+    
+}
+.post-template .post-title {
+    margin-bottom: 0;
+}
+.post-template .post-meta {
+    margin: 10px 0 0 0;
+}
+.post-template .post-date {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+.post-date {
+    display: inline-block;
+    margin-left: 8px;
+    padding-left: 12px;
+    border-left: #d5dbde 1px solid;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    white-space: nowrap;
+}
+.post-meta {
+    display: block;
+    margin: 1.75rem 0 0 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    color: #9EABB3;
+}
+.post-template .post-meta .tag-icon {
+    font-size: 21px;
+    margin-left: 15px;
+    vertical-align: bottom;
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
